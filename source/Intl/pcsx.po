@@ -1,0 +1,1118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-05-11 19:27-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Misc.c:32
+msgid ""
+"PCSX a psx emulator\n"
+"\n"
+"written by:\n"
+"main coder: linuzappz\n"
+"co-coders: shadow\n"
+"ex-coders: Nocomp, Pete Bernett, nik3d\n"
+"Webmaster: AkumaX"
+msgstr ""
+
+#: ../Misc.c:41
+msgid ""
+"Greets to: Duddie, Tratax, Kazzuya, JNS, Bobbi, Psychojak, Shunt,\n"
+"           Keith, DarkWatcher, Xeven, Liquid, Dixon, Prafull\n"
+"Special thanks to:\n"
+"Twin (we Love you twin0r), Roor (love for you too),\n"
+"calb (Thanks for help :) ), now3d (for great help to my psxdev stuff :) )"
+msgstr ""
+
+#: ../Misc.c:398
+#, c-format
+msgid "Error opening file: %s"
+msgstr ""
+
+#: ../Misc.c:413
+msgid "Pcsx found that you wanna use a CPE file. CPE files not supported"
+msgstr ""
+
+#: ../Misc.c:416
+msgid "Pcsx found that you wanna use a COFF file. COFF files not supported"
+msgstr ""
+
+#: ../Misc.c:419
+msgid "This file is not a psx file"
+msgstr ""
+
+#: ../Misc.c:627
+msgid "Arabic"
+msgstr ""
+
+#: ../Misc.c:628
+msgid "Catalan"
+msgstr ""
+
+#: ../Misc.c:629
+msgid "German"
+msgstr ""
+
+#: ../Misc.c:630
+msgid "Greek"
+msgstr ""
+
+#: ../Misc.c:631 ../Win32/WndMain.c:1321 ../Win32/WndMain.c:1323
+msgid "English"
+msgstr ""
+
+#: ../Misc.c:632
+msgid "Spanish"
+msgstr ""
+
+#: ../Misc.c:633
+msgid "French"
+msgstr ""
+
+#: ../Misc.c:634
+msgid "Italian"
+msgstr ""
+
+#: ../Misc.c:635
+msgid "Portuguese"
+msgstr ""
+
+#: ../Misc.c:636
+msgid "Romanian"
+msgstr ""
+
+#: ../Misc.c:637
+msgid "Russian"
+msgstr ""
+
+#: ../plugins.c:31
+#, c-format
+msgid "Error loading %s: %s"
+msgstr ""
+
+#: ../plugins.c:162
+#, c-format
+msgid "Could Not Load GPU Plugin %s"
+msgstr ""
+
+#: ../plugins.c:224
+#, c-format
+msgid "Could Not load CDR plugin %s"
+msgstr ""
+
+#: ../plugins.c:462
+#, c-format
+msgid "Could not open SPU plugin %s"
+msgstr ""
+
+#: ../plugins.c:610
+#, c-format
+msgid "Could Not load PAD1 plugin %s"
+msgstr ""
+
+#: ../plugins.c:664
+#, c-format
+msgid "Could Not load PAD plugin %s"
+msgstr ""
+
+#: ../plugins.c:707
+#, c-format
+msgid "Could Not load NET plugin %s"
+msgstr ""
+
+#: ../plugins.c:757
+#, c-format
+msgid "CDRinit error : %d"
+msgstr ""
+
+#: ../Linux/Plugin.c:262 ../Win32/plugin.c:291 ../plugins.c:759
+#, c-format
+msgid "GPUinit error: %d"
+msgstr ""
+
+#: ../Linux/Plugin.c:264 ../Win32/plugin.c:293 ../plugins.c:761
+#, c-format
+msgid "SPUinit error: %d"
+msgstr ""
+
+#: ../Linux/Plugin.c:266 ../Win32/plugin.c:295 ../plugins.c:763
+#, c-format
+msgid "PAD1init error: %d"
+msgstr ""
+
+#: ../Linux/Plugin.c:268 ../Win32/plugin.c:297 ../plugins.c:765
+#, c-format
+msgid "PAD2init error: %d"
+msgstr ""
+
+#: ../Linux/Plugin.c:271 ../Win32/plugin.c:300 ../plugins.c:768
+#, c-format
+msgid "NETinit error: %d"
+msgstr ""
+
+#: ../PsxMem.c:39
+msgid "Error allocating memory"
+msgstr ""
+
+#: ../PsxMem.c:77
+#, c-format
+msgid "Could not open bios:\"%s\". Enabling HLE Bios\n"
+msgstr ""
+
+#: ../Sio.c:108
+msgid "Connection closed\n"
+msgstr ""
+
+#: ../Sio.c:345
+#, c-format
+msgid "Failed loading MemCard %s\n"
+msgstr ""
+
+#: ../Linux/Glade2Funcs.c:90 ../Linux/Glade2Funcs.c:114
+#: ../Linux/GladeFuncs.c:121
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:106 ../Linux/GladeGui.c:85
+msgid "PCSX"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:118 ../Linux/GladeGui.c:103
+msgid "File"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:125 ../Linux/GladeGui.c:117
+msgid "Run Cd"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:133 ../Linux/GladeGui.c:124
+msgid "Run Cd Through Bios"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:141 ../Linux/GladeGui.c:131
+msgid "Run Exe"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:154 ../Linux/GladeGui.c:146
+msgid "States"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:165 ../Linux/GladeGui.c:160
+msgid "Load"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:176 ../Linux/Glade2Gui.c:215 ../Linux/GladeGui.c:174
+#: ../Linux/GladeGui.c:230
+msgid "Slot 1"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:180 ../Linux/Glade2Gui.c:219 ../Linux/GladeGui.c:181
+#: ../Linux/GladeGui.c:237
+msgid "Slot 2"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:184 ../Linux/Glade2Gui.c:223 ../Linux/GladeGui.c:188
+#: ../Linux/GladeGui.c:244
+msgid "Slot 3"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:188 ../Linux/Glade2Gui.c:227 ../Linux/GladeGui.c:195
+#: ../Linux/GladeGui.c:251
+msgid "Slot 4"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:192 ../Linux/Glade2Gui.c:231 ../Linux/GladeGui.c:202
+#: ../Linux/GladeGui.c:258
+msgid "Slot 5"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:196 ../Linux/Glade2Gui.c:235 ../Linux/GladeGui.c:209
+#: ../Linux/GladeGui.c:265
+msgid "Other..."
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:204 ../Linux/GladeGui.c:216
+msgid "Save"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:248 ../Linux/GladeGui.c:280
+msgid "Exit"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:256 ../Linux/GladeGui.c:287
+msgid "Emulator"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:263 ../Linux/GladeGui.c:301
+msgid "Run"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:271 ../Linux/GladeGui.c:308
+msgid "Reset"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:279 ../Linux/GladeGui.c:315
+#: ../Win32/ConfigurePlugins.c:464
+msgid "Configuration"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:286 ../Linux/GladeGui.c:329
+msgid "Plugins & Bios"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:299 ../Linux/GladeGui.c:344 ../Linux/GladeGui.c:973
+#: ../Win32/ConfigurePlugins.c:468
+msgid "Graphics"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:307 ../Linux/GladeGui.c:351 ../Linux/GladeGui.c:963
+#: ../Win32/ConfigurePlugins.c:471
+msgid "Sound"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:315 ../Linux/GladeGui.c:358
+msgid "CD-ROM"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:323 ../Linux/GladeGui.c:365
+msgid "Controllers"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:336 ../Linux/Glade2Gui.c:2482 ../Linux/GladeGui.c:380
+#: ../Linux/GladeGui.c:1829 ../Win32/ConfigurePlugins.c:599
+msgid "NetPlay"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:349 ../Linux/Glade2Gui.c:1705 ../Linux/GladeGui.c:395
+#: ../Linux/GladeGui.c:1200
+msgid "Cpu"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:357 ../Linux/GladeGui.c:402
+msgid "Memory Cards"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:365 ../Linux/GladeGui.c:409
+msgid "Language"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:369 ../Linux/GladeGui.c:416
+msgid "Help"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:376 ../Linux/GladeGui.c:430 ../Linux/Gtk2Gui.c:1598
+#: ../Linux/GtkGui.c:1408
+msgid "About PCSX"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:569 ../Linux/GladeGui.c:547
+msgid "Pcsx About"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:585
+msgid ""
+"PCSX\n"
+"\n"
+"Version x.x"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:599 ../Linux/GladeGui.c:601
+msgid "written by..."
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:617 ../Linux/GladeGui.c:631
+msgid "greets to..."
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:626 ../Linux/Glade2Gui.c:1461
+#: ../Linux/Glade2Gui.c:1819 ../Linux/Glade2Gui.c:2575 ../Linux/GladeGui.c:645
+#: ../Linux/GladeGui.c:1094 ../Linux/GladeGui.c:1357 ../Linux/GladeGui.c:1733
+#: ../Linux/GladeGui.c:1888 ../Linux/GtkGui.c:1647
+msgid "Ok"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:806 ../Linux/GladeGui.c:715
+msgid "Conf"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:865 ../Linux/Glade2Gui.c:974 ../Linux/Glade2Gui.c:1083
+#: ../Linux/Glade2Gui.c:1256 ../Linux/Glade2Gui.c:1365
+#: ../Linux/Glade2Gui.c:2521 ../Linux/GladeGui.c:803 ../Linux/GladeGui.c:837
+#: ../Linux/GladeGui.c:871 ../Linux/GladeGui.c:905 ../Linux/GladeGui.c:939
+#: ../Linux/GladeGui.c:1857
+msgid "Configure"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:887 ../Linux/Glade2Gui.c:996 ../Linux/Glade2Gui.c:1105
+#: ../Linux/Glade2Gui.c:1278 ../Linux/Glade2Gui.c:1387
+#: ../Linux/Glade2Gui.c:2543 ../Linux/GladeGui.c:811 ../Linux/GladeGui.c:845
+#: ../Linux/GladeGui.c:879 ../Linux/GladeGui.c:913 ../Linux/GladeGui.c:947
+#: ../Linux/GladeGui.c:1865
+msgid "Test"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:909 ../Linux/Glade2Gui.c:1018
+#: ../Linux/Glade2Gui.c:1127 ../Linux/Glade2Gui.c:1300
+#: ../Linux/Glade2Gui.c:1409 ../Linux/Glade2Gui.c:2565 ../Linux/GladeGui.c:819
+#: ../Linux/GladeGui.c:853 ../Linux/GladeGui.c:887 ../Linux/GladeGui.c:921
+#: ../Linux/GladeGui.c:955 ../Linux/GladeGui.c:1873 ../Win32/AboutDlg.c:28
+msgid "About"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:922
+msgid "Pad 1"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1031
+msgid "CD"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1140
+msgid "Pad 2"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1191 ../Linux/GladeGui.c:1078
+msgid "Select Bios Dir"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1204 ../Linux/GladeGui.c:1003
+#: ../Win32/ConfigurePlugins.c:473
+msgid "Bios"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1313
+msgid "Gpu"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1422
+msgid "Spu"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1450
+msgid "Select Plugin Dir"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1466 ../Linux/Glade2Gui.c:1824
+#: ../Linux/Glade2Gui.c:2580 ../Linux/GladeGui.c:1102 ../Linux/GladeGui.c:1365
+#: ../Linux/GladeGui.c:1741 ../Linux/GladeGui.c:1896
+#: ../Win32/ConfigurePlugins.c:467 ../Win32/ConfigurePlugins.c:598
+#: ../Win32/WndMain.c:801 ../Win32/WndMain.c:1037
+msgid "Cancel"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1727 ../Linux/GladeGui.c:1234 ../Win32/WndMain.c:1039
+msgid "Disable Xa Decoding"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1733 ../Linux/GladeGui.c:1243
+msgid "Disable Cd Audio"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1739 ../Linux/GladeGui.c:1252 ../Win32/WndMain.c:1040
+msgid "Sio Irq Always Enabled"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1745 ../Linux/GladeGui.c:1261 ../Win32/WndMain.c:1045
+msgid "Enable Interpreter Cpu"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1751 ../Linux/GladeGui.c:1270 ../Win32/WndMain.c:1046
+msgid "Enable Console Output"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1757 ../Linux/GladeGui.c:1279
+msgid "Black & White Movies"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1763 ../Linux/GladeGui.c:1288 ../Win32/WndMain.c:1047
+msgid "Spu Irq Always Enabled"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1769 ../Linux/GladeGui.c:1297 ../Win32/WndMain.c:1048
+msgid "Parasite Eve 2, Vandal Hearts 1/2 Fix"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1773 ../Linux/GladeGui.c:1304 ../Win32/WndMain.c:1049
+msgid "InuYasha Sengoku Battle Fix"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1777 ../Linux/GladeGui.c:1211 ../Win32/WndMain.c:1051
+msgid "Options"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1792 ../Linux/GladeGui.c:1327 ../Win32/WndMain.c:1044
+msgid "Autodetect"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1809 ../Linux/GladeGui.c:1311 ../Win32/WndMain.c:1052
+msgid "Psx System Type"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:1951 ../Linux/GladeGui.c:1430
+msgid "Mcds"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2007 ../Linux/Glade2Gui.c:2232
+#: ../Linux/GladeGui.c:1530 ../Linux/GladeGui.c:1695
+msgid "Select"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2029 ../Linux/Glade2Gui.c:2254
+#: ../Linux/GladeGui.c:1538 ../Linux/GladeGui.c:1703
+msgid "Format"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2051 ../Linux/Glade2Gui.c:2276
+#: ../Linux/GladeGui.c:1546 ../Linux/GladeGui.c:1711
+msgid "Reload"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2068 ../Linux/GladeGui.c:1447 ../Win32/WndMain.c:814
+msgid "Memory Card 1"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2095 ../Linux/Glade2Gui.c:2117
+msgid "Copy"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2139 ../Linux/GladeGui.c:1588 ../Win32/WndMain.c:810
+msgid "Paste"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2161 ../Linux/Glade2Gui.c:2183
+msgid "Un/Delete"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2293 ../Linux/GladeGui.c:1612 ../Win32/WndMain.c:815
+msgid "Memory Card 2"
+msgstr ""
+
+#: ../Linux/Glade2Gui.c:2469 ../Linux/GladeGui.c:1812
+#: ../Win32/ConfigurePlugins.c:595
+msgid "NetPlay Configuration"
+msgstr ""
+
+#: ../Linux/GladeFuncs.c:130
+#, c-format
+msgid "Error loading pixmap file: %s"
+msgstr ""
+
+#: ../Linux/GladeGui.c:578
+msgid ""
+"PCSX\r\n"
+"Version x.x"
+msgstr ""
+
+#: ../Linux/GladeGui.c:983 ../Win32/ConfigurePlugins.c:469
+msgid "First Controller"
+msgstr ""
+
+#: ../Linux/GladeGui.c:993 ../Win32/ConfigurePlugins.c:472
+msgid "Cdrom"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1013 ../Win32/ConfigurePlugins.c:470
+msgid "Second Controller"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1069
+msgid "Select Plugins Dir"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1485 ../Linux/GladeGui.c:1650 ../Linux/Gtk2Gui.c:574
+msgid "Icon"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1492 ../Linux/GladeGui.c:1657 ../Linux/Gtk2Gui.c:583
+#: ../Win32/WndMain.c:498
+msgid "Title"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1499 ../Linux/GladeGui.c:1664 ../Linux/Gtk2Gui.c:592
+#: ../Win32/WndMain.c:504
+msgid "Status"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1506 ../Linux/GladeGui.c:1671 ../Win32/WndMain.c:510
+msgid "Game ID"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1513 ../Linux/GladeGui.c:1678 ../Win32/WndMain.c:516
+msgid "Game"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1572 ../Win32/WndMain.c:808
+msgid "-> Copy ->"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1580 ../Win32/WndMain.c:809
+msgid "<- Copy <-"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1596 ../Win32/WndMain.c:812
+msgid "Un/Delete ->"
+msgstr ""
+
+#: ../Linux/GladeGui.c:1604 ../Win32/WndMain.c:811
+msgid "<- Un/Delete"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:231 ../Linux/GtkGui.c:230
+msgid "Select Psx Exe File"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:258 ../Linux/GtkGui.c:257 ../Linux/LnxMain.c:134
+msgid "Could not load Cdrom\n"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:298 ../Linux/GtkGui.c:297
+msgid "PCSX Quitting\n"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:321 ../Linux/GtkGui.c:320 ../Linux/Plugin.c:99
+#: ../Win32/WndMain.c:188 ../Win32/WndMain.c:212 ../Win32/plugin.c:91
+#, c-format
+msgid "*PCSX*: Loaded State %d"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:322 ../Linux/GtkGui.c:321 ../Linux/Plugin.c:100
+#: ../Win32/WndMain.c:189 ../Win32/WndMain.c:213 ../Win32/plugin.c:92
+#, c-format
+msgid "*PCSX*: Error Loading State %d"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:349 ../Linux/GtkGui.c:347 ../Linux/Plugin.c:84
+#: ../Win32/plugin.c:74
+#, c-format
+msgid "*PCSX*: Saved State %d"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:350 ../Linux/GtkGui.c:348 ../Linux/Plugin.c:85
+#: ../Win32/plugin.c:75
+#, c-format
+msgid "*PCSX*: Error Saving State %d"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:383 ../Linux/GtkGui.c:380 ../Win32/WndMain.c:260
+#: ../Win32/WndMain.c:313
+#, c-format
+msgid "*PCSX*: Loaded State %s"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:384 ../Linux/GtkGui.c:381 ../Win32/WndMain.c:261
+#: ../Win32/WndMain.c:314
+#, c-format
+msgid "*PCSX*: Error Loading State %s"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:397 ../Linux/Gtk2Gui.c:455 ../Linux/GtkGui.c:394
+#: ../Linux/GtkGui.c:452
+msgid "Select State File"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:441 ../Linux/GtkGui.c:438
+#, c-format
+msgid "*PCSX*: Saved State %s"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:442 ../Linux/GtkGui.c:439
+#, c-format
+msgid "*PCSX*: Error Saving State %s"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:601
+msgid "ID"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:610
+msgid "Name"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:681 ../Linux/Gtk2Gui.c:1144 ../Linux/GtkGui.c:603
+#: ../Linux/GtkGui.c:635 ../Win32/WndMain.c:701
+msgid "Deleted"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:682 ../Linux/Gtk2Gui.c:685 ../Linux/Gtk2Gui.c:1145
+#: ../Linux/Gtk2Gui.c:1148 ../Linux/GtkGui.c:604 ../Linux/GtkGui.c:607
+#: ../Linux/GtkGui.c:636 ../Linux/GtkGui.c:639 ../Win32/WndMain.c:702
+#: ../Win32/WndMain.c:705
+msgid "Free"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:684 ../Linux/Gtk2Gui.c:1147 ../Linux/GtkGui.c:606
+#: ../Linux/GtkGui.c:638 ../Win32/WndMain.c:704
+msgid "Used"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:834 ../Linux/Gtk2Gui.c:852 ../Linux/GtkGui.c:736
+#: ../Linux/GtkGui.c:754
+msgid "Select Psx Mcd File"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:922 ../Linux/Gtk2Gui.c:932 ../Linux/GtkGui.c:834
+#: ../Linux/GtkGui.c:844 ../Win32/WndMain.c:981 ../Win32/WndMain.c:988
+msgid "Are you sure you want to format this Memory Card?"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:922 ../Linux/Gtk2Gui.c:932 ../Linux/Gtk2Gui.c:998
+#: ../Linux/GtkGui.c:834 ../Linux/GtkGui.c:844 ../Linux/GtkGui.c:891
+#: ../Win32/WndMain.c:870 ../Win32/WndMain.c:981 ../Win32/WndMain.c:988
+msgid "Confirmation"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:998 ../Linux/GtkGui.c:891 ../Win32/WndMain.c:870
+msgid "Are you sure you want to paste this selection?"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1180 ../Linux/GtkGui.c:1003
+msgid "PCSX Memcard Manager"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1321 ../Linux/Gtk2Gui.c:1575 ../Linux/GtkGui.c:1128
+#: ../Linux/GtkGui.c:1385
+msgid "PCSX Configuration"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1406 ../Linux/GtkGui.c:1215
+msgid "Plugin doesn't needs to be configured"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1428 ../Win32/ConfigurePlugins.c:389
+msgid "This plugin reports that should work correctly"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1429 ../Win32/ConfigurePlugins.c:390
+msgid "This plugin reports that should not work correctly"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1526 ../Linux/GtkGui.c:1335
+msgid "Select Plugins Directory"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1559 ../Linux/GtkGui.c:1369
+msgid "Select Bios Directory"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1601
+#, c-format
+msgid ""
+"PCSX For Linux\n"
+"Version %s"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1642 ../Linux/Gtk2Gui.c:1712 ../Linux/Gtk2Gui.c:1756
+#: ../Linux/GtkGui.c:1452 ../Linux/GtkGui.c:1522 ../Linux/GtkGui.c:1566
+#, c-format
+msgid "Could not open '%s' directory\n"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1706 ../Linux/GtkGui.c:1516
+msgid "Internal HLE Bios"
+msgstr ""
+
+#: ../Linux/Gtk2Gui.c:1814 ../Linux/GtkGui.c:1631 ../Win32/WndMain.c:1479
+msgid "Pcsx Msg"
+msgstr ""
+
+#: ../Linux/GtkGui.c:812
+msgid "Yes"
+msgstr ""
+
+#: ../Linux/GtkGui.c:818
+msgid "No"
+msgstr ""
+
+#: ../Linux/LnxMain.c:64
+msgid ""
+" pcsx [options] [file]\n"
+"\toptions:\n"
+"\t-runcd\t\tRuns CdRom\n"
+"\t-runcdbios\tRuns CdRom Through Bios\n"
+"\t-nogui\t\tDon't open GtkGui\n"
+"\t-cfg FILE\tLoads desired configuration file (def:Pcsx.cfg)\n"
+"\t-psxout\t\tEnable psx output\n"
+"\t-load STATENUM\tLoads savestate STATENUM (1-5)\n"
+"\t-h -help\tThis help\n"
+"\tfile\t\tLoads file\n"
+msgstr ""
+
+#: ../Linux/LnxMain.c:79
+msgid "Disabled"
+msgstr ""
+
+#: ../Linux/LnxMain.c:85 ../Linux/LnxMain.c:203
+msgid ""
+"Pcsx is unable to configure pcsx settings without gtkgui, restart without -"
+"nogui\n"
+msgstr ""
+
+#: ../Linux/LnxMain.c:90
+msgid "Pcsx needs to be configured\n"
+msgstr ""
+
+#: ../Linux/Plugin.c:109 ../Win32/plugin.c:104
+msgid "*PCSX*: Sio Irq Always Enabled"
+msgstr ""
+
+#: ../Linux/Plugin.c:110 ../Win32/plugin.c:105
+msgid "*PCSX*: Sio Irq Not Always Enabled"
+msgstr ""
+
+#: ../Linux/Plugin.c:116 ../Win32/plugin.c:113
+msgid "*PCSX*: Black&White Mdecs Only Enabled"
+msgstr ""
+
+#: ../Linux/Plugin.c:117 ../Win32/plugin.c:114
+msgid "*PCSX*: Black&White Mdecs Only Disabled"
+msgstr ""
+
+#: ../Linux/Plugin.c:123 ../Win32/plugin.c:122
+msgid "*PCSX*: Xa Enabled"
+msgstr ""
+
+#: ../Linux/Plugin.c:124 ../Win32/plugin.c:123
+msgid "*PCSX*: Xa Disabled"
+msgstr ""
+
+#: ../Linux/Plugin.c:176 ../Win32/plugin.c:197
+msgid "Error Opening CDR Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:178
+msgid "Error Opening SPU Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:181
+msgid "Error Opening GPU Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:183
+msgid "Error Opening PAD1 Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:185
+msgid "Error Opening PAD2 Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:234 ../Win32/plugin.c:263
+msgid "Error Closing CDR Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:236 ../Win32/plugin.c:267
+msgid "Error Closing SPU Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:238 ../Win32/plugin.c:269
+msgid "Error Closing PAD1 Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:240 ../Win32/plugin.c:271
+msgid "Error Closing PAD2 Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:242 ../Win32/plugin.c:265
+msgid "Error Closing GPU Plugin"
+msgstr ""
+
+#: ../Linux/Plugin.c:260 ../Win32/plugin.c:289
+#, c-format
+msgid "CDRinit error: %d"
+msgstr ""
+
+#: ../Win32/AboutDlg.c:30 ../Win32/AboutDlg.c:34
+#: ../Win32/ConfigurePlugins.c:466 ../Win32/ConfigurePlugins.c:597
+#: ../Win32/WndMain.c:800 ../Win32/WndMain.c:1036
+msgid "OK"
+msgstr ""
+
+#: ../Win32/AboutDlg.c:31
+msgid "PCSX EMU\n"
+msgstr ""
+
+#: ../Win32/ConfigurePlugins.c:474
+msgid "Set Bios Directory"
+msgstr ""
+
+#: ../Win32/ConfigurePlugins.c:475
+msgid "Set Plugins Directory"
+msgstr ""
+
+#: ../Win32/ConfigurePlugins.c:476 ../Win32/ConfigurePlugins.c:479
+#: ../Win32/ConfigurePlugins.c:482 ../Win32/ConfigurePlugins.c:485
+#: ../Win32/ConfigurePlugins.c:488 ../Win32/ConfigurePlugins.c:600
+msgid "Configure..."
+msgstr ""
+
+#: ../Win32/ConfigurePlugins.c:477 ../Win32/ConfigurePlugins.c:480
+#: ../Win32/ConfigurePlugins.c:483 ../Win32/ConfigurePlugins.c:486
+#: ../Win32/ConfigurePlugins.c:489 ../Win32/ConfigurePlugins.c:601
+msgid "Test..."
+msgstr ""
+
+#: ../Win32/ConfigurePlugins.c:478 ../Win32/ConfigurePlugins.c:481
+#: ../Win32/ConfigurePlugins.c:484 ../Win32/ConfigurePlugins.c:487
+#: ../Win32/ConfigurePlugins.c:490 ../Win32/ConfigurePlugins.c:602
+msgid "About..."
+msgstr ""
+
+#: ../Win32/ConfigurePlugins.c:603
+msgid ""
+"Note: The NetPlay Plugin Directory should be the same as the other Plugins."
+msgstr ""
+
+#: ../Win32/plugin.c:133
+msgid "*PCSX*: CdRom Case Opened"
+msgstr ""
+
+#: ../Win32/plugin.c:138
+msgid "*PCSX*: CdRom Case Closed"
+msgstr ""
+
+#: ../Win32/plugin.c:165
+msgid "Connecting..."
+msgstr ""
+
+#: ../Win32/plugin.c:167 ../Win32/plugin.c:174
+#, c-format
+msgid "Please wait while connecting... %c\n"
+msgstr ""
+
+#: ../Win32/plugin.c:244
+#, c-format
+msgid "Error Opening GPU Plugin (%d)"
+msgstr ""
+
+#: ../Win32/plugin.c:246
+#, c-format
+msgid "Error Opening SPU Plugin (%d)"
+msgstr ""
+
+#: ../Win32/plugin.c:249
+#, c-format
+msgid "Error Opening PAD1 Plugin (%d)"
+msgstr ""
+
+#: ../Win32/plugin.c:251
+#, c-format
+msgid "Error Opening PAD2 Plugin (%d)"
+msgstr ""
+
+#: ../Win32/WndMain.c:101
+msgid "Pcsx needs to be configured"
+msgstr ""
+
+#: ../Win32/WndMain.c:105
+msgid "Pcsx now will quit, restart it"
+msgstr ""
+
+#: ../Win32/WndMain.c:229 ../Win32/WndMain.c:284
+msgid "PCSX State Format"
+msgstr ""
+
+#: ../Win32/WndMain.c:344
+msgid "Could not load Cdrom"
+msgstr ""
+
+#: ../Win32/WndMain.c:690
+msgid "mid link block"
+msgstr ""
+
+#: ../Win32/WndMain.c:693
+msgid "terminiting link block"
+msgstr ""
+
+#: ../Win32/WndMain.c:798
+msgid "Memcard Manager"
+msgstr ""
+
+#: ../Win32/WndMain.c:802 ../Win32/WndMain.c:805
+msgid "Select Mcd"
+msgstr ""
+
+#: ../Win32/WndMain.c:803 ../Win32/WndMain.c:806
+msgid "Format Mcd"
+msgstr ""
+
+#: ../Win32/WndMain.c:804 ../Win32/WndMain.c:807
+msgid "Reload Mcd"
+msgstr ""
+
+#: ../Win32/WndMain.c:1034
+msgid "Cpu Config"
+msgstr ""
+
+#: ../Win32/WndMain.c:1041
+msgid "Black && White Movies"
+msgstr ""
+
+#: ../Win32/WndMain.c:1042
+msgid "Disable Misc Quick Keys (F5-F8)"
+msgstr ""
+
+#: ../Win32/WndMain.c:1043
+msgid "Disable Cd audio"
+msgstr ""
+
+#: ../Win32/WndMain.c:1126
+msgid "Psx Mcd Format (*.mcr;*.mc;*.mem;*.vgs;*.mcd;*.gme;*.ddf)"
+msgstr ""
+
+#: ../Win32/WndMain.c:1131
+msgid "Psx Memory Card (*.mcr;*.mc)"
+msgstr ""
+
+#: ../Win32/WndMain.c:1136
+msgid "CVGS Memory Card (*.mem;*.vgs)"
+msgstr ""
+
+#: ../Win32/WndMain.c:1141
+msgid "Bleem Memory Card (*.mcd)"
+msgstr ""
+
+#: ../Win32/WndMain.c:1146
+msgid "DexDrive Memory Card (*.gme)"
+msgstr ""
+
+#: ../Win32/WndMain.c:1151
+msgid "DataDeck Memory Card (*.ddf)"
+msgstr ""
+
+#: ../Win32/WndMain.c:1156
+msgid "All Files"
+msgstr ""
+
+#: ../Win32/WndMain.c:1194
+msgid "Psx Exe Format"
+msgstr ""
+
+#: ../Win32/WndMain.c:1262
+msgid "&File"
+msgstr ""
+
+#: ../Win32/WndMain.c:1263
+msgid "E&xit"
+msgstr ""
+
+#: ../Win32/WndMain.c:1265
+msgid "&States"
+msgstr ""
+
+#: ../Win32/WndMain.c:1267
+msgid "Run &EXE"
+msgstr ""
+
+#: ../Win32/WndMain.c:1268
+msgid "Run CD Though &Bios"
+msgstr ""
+
+#: ../Win32/WndMain.c:1269
+msgid "Run &CD"
+msgstr ""
+
+#: ../Win32/WndMain.c:1270
+msgid "&Save"
+msgstr ""
+
+#: ../Win32/WndMain.c:1271
+msgid "&Load"
+msgstr ""
+
+#: ../Win32/WndMain.c:1272 ../Win32/WndMain.c:1278
+msgid "&Other..."
+msgstr ""
+
+#: ../Win32/WndMain.c:1273 ../Win32/WndMain.c:1279
+msgid "Slot &5"
+msgstr ""
+
+#: ../Win32/WndMain.c:1274 ../Win32/WndMain.c:1280
+msgid "Slot &4"
+msgstr ""
+
+#: ../Win32/WndMain.c:1275 ../Win32/WndMain.c:1281
+msgid "Slot &3"
+msgstr ""
+
+#: ../Win32/WndMain.c:1276 ../Win32/WndMain.c:1282
+msgid "Slot &2"
+msgstr ""
+
+#: ../Win32/WndMain.c:1277 ../Win32/WndMain.c:1283
+msgid "Slot &1"
+msgstr ""
+
+#: ../Win32/WndMain.c:1285
+msgid "&Emulator"
+msgstr ""
+
+#: ../Win32/WndMain.c:1286
+msgid "Re&set"
+msgstr ""
+
+#: ../Win32/WndMain.c:1287
+msgid "&Run"
+msgstr ""
+
+#: ../Win32/WndMain.c:1289
+msgid "&Configuration"
+msgstr ""
+
+#: ../Win32/WndMain.c:1290
+msgid "&Memory cards"
+msgstr ""
+
+#: ../Win32/WndMain.c:1291
+msgid "C&PU"
+msgstr ""
+
+#: ../Win32/WndMain.c:1293
+msgid "&NetPlay"
+msgstr ""
+
+#: ../Win32/WndMain.c:1295
+msgid "&Controllers"
+msgstr ""
+
+#: ../Win32/WndMain.c:1296
+msgid "CD-&ROM"
+msgstr ""
+
+#: ../Win32/WndMain.c:1297
+msgid "&Sound"
+msgstr ""
+
+#: ../Win32/WndMain.c:1298
+msgid "&Graphics"
+msgstr ""
+
+#: ../Win32/WndMain.c:1300
+msgid "&Plugins && Bios"
+msgstr ""
+
+#: ../Win32/WndMain.c:1302
+msgid "&Language"
+msgstr ""
+
+#: ../Win32/WndMain.c:1326 ../Win32/WndMain.c:1329
+msgid "&Help"
+msgstr ""
+
+#: ../Win32/WndMain.c:1327
+msgid "&About..."
+msgstr ""
+
+#: ../Win32/WndMain.c:1482
+msgid "Error Loading Symbol"
+msgstr ""

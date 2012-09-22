@@ -1,0 +1,40 @@
+dnl Process this file with autoconf to produce a configure script.
+dnl by Linuzappz <linuzappz@hotmail.com>
+dnl autoconf version 2.13
+
+AC_INIT(LnxMain.c)
+AM_INIT_AUTOMAKE(PCSX, 1.5)
+AM_MAINTAINTER_MODE
+AC_PROG_CC
+AC_CHECK_PROG(PGCC, pgcc, pgcc)
+AC_CHECK_PROG(STRIP, strip, strip)
+AC_CHECK_PROG(RM, rm, rm)
+
+CFLAGS=""
+
+dnl check for libraries
+
+dnl gtk2=yes
+
+AC_MSG_CHECKING(gtk+2)
+PKG_CHECK_MODULES(GTK, gtk+-2.0 > 2.0.0, gtk2=yes, gtk2=no)
+
+if test x$gtk2 = xyes; then
+	AC_MSG_CHECKING(gtk+)
+
+	AC_CHECK_PROG(GTK-CONFIG, gtk-config, gtk-config)
+fi
+
+dnl end
+
+AC_SUBST(CFLAGS)
+AC_SUBST(OBJS)
+AC_SUBST(LIBS)
+AC_SUBST(PGCC)
+AC_SUBST(STRIP)
+AC_SUBST(RM)
+AC_SUBST(GTK_CFLAGS)
+AC_SUBST(GTK_LIBS)
+
+AC_OUTPUT(Makefile.cfg)
+

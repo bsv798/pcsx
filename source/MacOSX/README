@@ -1,0 +1,3 @@
+in PcsxSrc do:
+$ ln -s MacOSX/Makefile .
+$ make

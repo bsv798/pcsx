@@ -1,0 +1,393 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MCDCONF DIALOG DISCARDABLE  0, 0, 407, 197
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Memcard Manager"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,285,175,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,345,175,50,14
+    EDITTEXT        IDC_MCD1,10,155,160,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MCD2,235,155,160,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Select Mcd",IDC_MCDSEL1,10,135,50,14
+    PUSHBUTTON      "Select Mcd",IDC_MCDSEL2,235,135,50,14
+    GROUPBOX        "Memory Card 2",IDC_FRAMEMCD2,230,5,170,125
+    PUSHBUTTON      "Format Mcd",IDC_FORMAT1,65,135,50,14
+    GROUPBOX        "Memory Card 1",IDC_FRAMEMCD1,5,5,170,125
+    PUSHBUTTON      "Format Mcd",IDC_FORMAT2,290,135,50,14
+    CONTROL         "List3",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,10,15,160,110
+    CONTROL         "List3",IDC_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,235,15,160,110
+    PUSHBUTTON      "Reload Mcd",IDC_RELOAD1,120,135,50,14
+    PUSHBUTTON      "Reload Mcd",IDC_RELOAD2,345,135,50,14
+    PUSHBUTTON      "-> Copy ->",IDC_COPYTO2,180,30,45,14
+    PUSHBUTTON      "<- Copy <-",IDC_COPYTO1,180,50,45,14
+    PUSHBUTTON      "Paste",IDC_PASTE,180,70,45,14
+    PUSHBUTTON      "<- Un/Delete",IDC_DELETE1,180,90,45,14
+    PUSHBUTTON      "Un/Delete ->",IDC_DELETE2,180,110,45,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MCDCONF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ABOUT_DIALOG DIALOGEX 0, 0, 332, 186
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,165,50,14
+    CTEXT           "PCSX EMU\nVersion x.x",IDC_PCSX_ABOUT_TEXT,55,10,40,15,
+                    0,WS_EX_TRANSPARENT
+    CTEXT           "PCSX a psx emulator...",IDC_PCSX_ABOUT_AUTHORS,10,35,
+                    135,55,0,WS_EX_TRANSPARENT
+    CTEXT           "Greets to...",IDC_PCSX_ABOUT_GREETS,45,110,232,40
+    CONTROL         113,IDC_STATIC,"Static",SS_BITMAP | WS_BORDER,155,10,171,
+                    86
+    GROUPBOX        "",IDC_STATIC,5,25,145,70
+    GROUPBOX        "",IDC_STATIC,43,100,235,55
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    ABOUT_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 310
+        BOTTOMMARGIN, 178
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APP_ICON            ICON    DISCARDABLE     ".\\Cdrom02.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+SPLASH_LOGO             BITMAP  DISCARDABLE     "..\\pcsxAbout.bmp"
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0xB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0xB
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CPUCONF DIALOG DISCARDABLE  0, 0, 232, 175
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Cpu Config"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,50,155,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,120,155,50,14
+    CONTROL         "Disable Xa Decoding",IDC_XA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,15,83,10
+    CONTROL         "Sio Irq Always Enabled",IDC_SIO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,30,88,10
+    CONTROL         "Black && White Movies",IDC_MDEC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,60,85,10
+    CONTROL         "Autodetect",IDC_PSXAUTO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,126,51,10
+    GROUPBOX        "Misc Options",IDC_MISCOPT,5,5,220,100
+    COMBOBOX        IDC_PSXTYPES,105,126,53,50,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Select Psx System Type",IDC_SELPSX,5,110,220,35
+    CONTROL         "Disable Misc Quick Keys (F5-F8)",IDC_QKEYS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,105,60,118,10
+    CONTROL         "Disable Cd Audio",IDC_CDDA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,105,15,70,10
+    CONTROL         "Enable Console Output",IDC_PSXOUT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,105,30,89,10
+    CONTROL         "Enable Interpreter Cpu",IDC_CPU,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,105,45,87,10
+    CONTROL         "Spu Irq Always Enabled",IDC_SPUIRQ,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,45,91,10
+    CONTROL         "Parasite Eve 2, Vandal Hearts 1/2 Fix",IDC_RCNTFIX,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,75,135,10
+    CONTROL         "InuYasha Sengoku Battle Fix",IDC_VSYNCWA,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,90,107,10
+END
+
+IDD_NETPLAY DIALOG DISCARDABLE  0, 0, 165, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NetPlay Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,55,75,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,110,75,50,14
+    COMBOBOX        IDC_LISTNET,10,15,145,74,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Configure...",IDC_CONFIGNET,10,35,45,12
+    PUSHBUTTON      "Test...",IDC_TESTNET,60,35,45,12
+    PUSHBUTTON      "About...",IDC_ABOUTNET,110,35,45,12
+    RTEXT           "NetPlay",IDC_NETPLAY,50,5,41,10,SS_CENTERIMAGE
+    CTEXT           "Note: The NetPlay Plugin Directory should be the same as the other Plugins.",
+                    IDC_NETPLAYNOTE,10,50,145,19
+END
+
+IDD_CONNECT DIALOG DISCARDABLE  0, 0, 112, 31
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connecting..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please wait while connecting... /",IDC_CONNECTSTR,5,10,
+                    104,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CPUCONF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_NETPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_CONNECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CPUCONF DLGINIT
+BEGIN
+    IDC_PSXTYPES, 0x403, 5, 0
+0x544e, 0x4353, "\000" 
+    IDC_PSXTYPES, 0x403, 4, 0
+0x4150, 0x004c, 
+    0
+END
+
+#endif    // Spanish (Castilian) (unknown sub-lang: 0xB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Greek resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+#ifdef _WIN32
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG DIALOG DISCARDABLE  0, 0, 322, 161
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_LISTGPU,10,10,145,74,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Configure...",IDC_CONFIGGPU,10,30,45,12
+    PUSHBUTTON      "Test...",IDC_TESTGPU,60,30,45,12
+    PUSHBUTTON      "About...",IDC_ABOUTGPU,110,30,45,12
+    COMBOBOX        IDC_LISTSPU,165,10,145,74,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Configure...",IDC_CONFIGSPU,165,30,45,12
+    PUSHBUTTON      "Test...",IDC_TESTSPU,215,30,45,12
+    PUSHBUTTON      "About...",IDC_ABOUTSPU,265,30,43,12
+    COMBOBOX        IDC_LISTCDR,10,100,145,74,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Configure...",IDC_CONFIGCDR,10,120,43,12
+    PUSHBUTTON      "Test...",IDC_TESTCDR,60,120,45,12
+    PUSHBUTTON      "About...",IDC_ABOUTCDR,110,120,45,12
+    COMBOBOX        IDC_LISTBIOS,165,100,145,74,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,205,140,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,260,140,50,14
+    RTEXT           "Graphics",IDC_GRAPHICS,50,0,41,10,SS_CENTERIMAGE
+    RTEXT           "Sound",IDC_SOUND,200,0,43,10,SS_CENTERIMAGE
+    RTEXT           "Cdrom",IDC_CDROM,70,90,20,10,SS_CENTERIMAGE
+    RTEXT           "Bios",IDC_BIOS,225,90,15,10,SS_CENTERIMAGE
+    COMBOBOX        IDC_LISTPAD1,10,55,145,74,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Configure...",IDC_CONFIGPAD1,10,75,45,12
+    PUSHBUTTON      "Test...",IDC_TESTPAD1,60,75,45,12
+    PUSHBUTTON      "About...",IDC_ABOUTPAD1,110,75,45,12
+    RTEXT           "Second Controller",IDC_SECONDCONTROLLER,205,45,58,10,
+                    SS_CENTERIMAGE
+    COMBOBOX        IDC_LISTPAD2,165,55,145,74,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Configure...",IDC_CONFIGPAD2,165,75,45,12
+    PUSHBUTTON      "Test...",IDC_TESTPAD2,215,75,45,12
+    PUSHBUTTON      "About...",IDC_ABOUTPAD2,265,75,45,12
+    CTEXT           "First Controller",IDC_FIRSTCONTROLLER,55,45,48,10,
+                    SS_CENTERIMAGE
+    PUSHBUTTON      "Set Bios Directory",IDC_BIOSDIR,90,140,65,14
+    PUSHBUTTON      "Set Plugins Directory",IDC_PLUGINSDIR,10,140,75,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONFIG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Greek resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
